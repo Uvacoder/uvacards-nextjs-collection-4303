@@ -48,7 +48,7 @@ export default function Home({projects}: any) {
                     window.speechSynthesis.speak(speech)
                   }}
                 >
-                  Vojta{' '}
+                  Ned{' '}
                   <Sound
                     aria-hidden="true"
                     className="ml-1 w-3 text-gray-200 group-hover:opacity-100 opacity-60"
@@ -59,13 +59,13 @@ export default function Home({projects}: any) {
                 </span>
               </h1>
               <h2 className="opacity-90">
-                I'm a web designer, creative helper, and front-end developer.
+                I'm a jack of all trades, master of none.
               </h2>
             </div>
           </div>
         </header>
         <h3 className="pb-4 text-gray-300">
-          Projects I've collaborated on in the past ~year:
+          Projects I'm working on:
         </h3>
         <main className="grid sm:grid-cols-2 grid-cols-1 gap-5 w-full">
           {projects.map(({title, url, image, links, cursor}: Project) => {
@@ -76,7 +76,7 @@ export default function Home({projects}: any) {
                 className="overflow-hidden bg-black bg-opacity-30 hover:bg-opacity-50 flex w-full items-center flex-col justify-between rounded-lg min-h-[200px] hover:scale-105 transition-all ease-in-out duration-200"
               >
                 <a
-                  className="flex items-center justify-center flex-grow p-16 w-full"
+                  className="flex items-center justify-center flex-grow p-8 w-full"
                   style={{cursor: `url(${cursor}), pointer`}}
                   href={url}
                   target="_blank"
