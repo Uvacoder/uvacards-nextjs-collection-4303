@@ -3,7 +3,7 @@ import {getProjects, Project} from 'lib/get-projects'
 import {GetStaticPropsContext} from 'next'
 import {Sound} from 'components/icons'
 import {links} from 'components/bio'
-import Me from '../../public/vojta-holik-03-22.png'
+import Me from '../../public/07A9B608-1E08-42E0-8D0B-6038A4D4D6A9.png'
 import Layout from 'components/layout'
 import Image from 'next/image'
 import find from 'lodash/find'
@@ -20,7 +20,7 @@ export default function Home({projects}: any) {
             <div className="flex items-center justify-center flex-shrink-0 sm:w-auto w-16 rounded-full overflow-hidden border-2 border-black/50">
               <Image
                 src={Me}
-                alt="Vojta Holik"
+                alt="basketball"
                 width={80}
                 height={80}
                 placeholder="blur"
