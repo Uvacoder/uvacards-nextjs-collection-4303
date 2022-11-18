@@ -76,7 +76,7 @@ export default function Home({projects}: any) {
                 className="overflow-hidden bg-black bg-opacity-30 hover:bg-opacity-50 flex w-full items-center flex-col justify-between rounded-lg min-h-[200px] hover:scale-105 transition-all ease-in-out duration-200"
               >
                 <a
-                  className="flex items-center justify-center flex-grow p-8 w-full"
+                  className="flex items-center justify-center flex-grow p-2 w-full"
                   style={{cursor: `url(${cursor}), pointer`}}
                   href={url}
                   target="_blank"
